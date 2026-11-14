@@ -1,0 +1,58 @@
+{
+  "run": "/home/kai/ros2_ws/trials/fix-blocked-20261108-0027",
+  "trials": 6,
+  "as_expected_rate": 1.0,
+  "scenarios": {
+    "A_blocked": {
+      "n": 6,
+      "expected": "partial",
+      "outcomes": {
+        "partial": 6
+      },
+      "as_expected_rate": 1.0,
+      "time_s": {
+        "mean": 74.67,
+        "sd": 2.58,
+        "min": 71.2,
+        "max": 78.7
+      },
+      "distance_m": {
+        "mean": 13.49,
+        "sd": 0.44,
+        "min": 13.21,
+        "max": 14.37
+      },
+      "recoveries": {
+        "mean": 0.0,
+        "sd": 0.0,
+        "min": 0.0,
+        "max": 0.0
+      },
+      "retries": {
+        "mean": 0.0,
+        "sd": 0.0,
+        "min": 0.0,
+        "max": 0.0
+      },
+      "min_clearance_m": {
+        "mean": 0.6,
+        "sd": 0.02,
+        "min": 0.56,
+        "max": 0.62
+      },
+      "true_goal_error_m": {
+        "mean": 0.35,
+        "sd": 0.05,
+        "min": 0.31,
+        "max": 0.42
+      },
+      "amcl_error_m": {
+        "mean": 0.2,
+        "sd": 0.02,
+        "min": 0.17,
+        "max": 0.24
+      },
+      "false_successes": 0
+    }
+  }
+}

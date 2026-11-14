@@ -1,0 +1,171 @@
+Panels:
+  - Class: rviz_common/Displays
+    Help Height: 0
+    Name: Displays
+    Property Tree Widget:
+      Expanded:
+        - /TF1
+      Splitter Ratio: 0.55
+    Tree Height: 600
+  - Class: rviz_common/Views
+    Name: Views
+Visualization Manager:
+  Class: ""
+  Displays:
+    - Class: rviz_default_plugins/Grid
+      Name: Grid (1 m cells)
+      Enabled: true
+      Cell Size: 1
+      Plane Cell Count: 12
+      Color: 110; 110; 110
+      Alpha: 0.4
+      Reference Frame: <Fixed Frame>
+      Value: true
+    - Class: rviz_default_plugins/Map
+      Name: Map (only with Nav2)
+      Enabled: true
+      Alpha: 0.6
+      Color Scheme: map
+      Topic:
+        Value: /map
+        Depth: 1
+        Durability Policy: Transient Local
+        History Policy: Keep Last
+        Reliability Policy: Reliable
+      Value: true
+    - Class: rviz_default_plugins/RobotModel
+      Name: RobotModel
+      Enabled: true
+      Alpha: 1
+      Description Source: Topic
+      Description Topic:
+        Value: /robot_description
+        Depth: 5
+        Durability Policy: Transient Local
+        History Policy: Keep Last
+        Reliability Policy: Reliable
+      Visual Enabled: true
+      Value: true
+    - Class: rviz_default_plugins/TF
+      Name: TF
+      Enabled: true
+      Marker Scale: 0.6
+      Show Arrows: true
+      Show Axes: true
+      Show Names: true
+      Frame Timeout: 15
+      Update Interval: 0
+      Value: true
+    - Class: rviz_default_plugins/LaserScan
+      Name: LaserScan (/scan)
+      Enabled: true
+      Alpha: 1
+      Color: 255; 60; 60
+      Color Transformer: FlatColor
+      Decay Time: 0
+      Position Transformer: XYZ
+      Selectable: true
+      Size (m): 0.05
+      Style: Flat Squares
+      Topic:
+        Value: /scan
+        Depth: 5
+        Durability Policy: Volatile
+        History Policy: Keep Last
+        Reliability Policy: Best Effort
+      Value: true
+    - Class: rviz_default_plugins/Odometry
+      Name: Odometry (/odom)
+      Enabled: false
+      Keep: 30
+      Position Tolerance: 0.25
+      Angle Tolerance: 0.3
+      Shape:
+        Alpha: 1
+        Axes Length: 1
+        Axes Radius: 0.1
+        Color: 60; 200; 255
+        Head Length: 0.1
+        Head Radius: 0.05
+        Shaft Length: 0.25
+        Shaft Radius: 0.02
+        Value: Arrow
+      Covariance:
+        Value: false
+      Topic:
+        Value: /odom
+        Depth: 5
+        Durability Policy: Volatile
+        History Policy: Keep Last
+        Reliability Policy: Best Effort
+      Value: false
+    - Class: rviz_default_plugins/Path
+      Name: Trail (/stage2/trail)
+      Enabled: true
+      Alpha: 1
+      Color: 52; 211; 153
+      Line Style: Lines
+      Line Width: 0.03
+      Pose Style: None
+      Topic:
+        Value: /stage2/trail
+        Depth: 5
+        Durability Policy: Volatile
+        History Policy: Keep Last
+        Reliability Policy: Reliable
+      Value: true
+    - Class: rviz_default_plugins/MarkerArray
+      Name: Closest obstacle (/stage2/markers)
+      Enabled: true
+      Namespaces:
+        stage2: true
+      Topic:
+        Value: /stage2/markers
+        Depth: 5
+        Durability Policy: Volatile
+        History Policy: Keep Last
+        Reliability Policy: Reliable
+      Value: true
+  Enabled: true
+  Global Options:
+    Background Color: 30; 36; 48
+    Fixed Frame: odom
+    Frame Rate: 30
+  Name: root
+  Tools:
+    - Class: rviz_default_plugins/Interact
+      Hide Inactive Objects: true
+    - Class: rviz_default_plugins/MoveCamera
+    - Class: rviz_default_plugins/Select
+    - Class: rviz_default_plugins/Measure
+      Line color: 128; 128; 0
+  Transformation:
+    Current:
+      Class: rviz_default_plugins/TF
+  Value: true
+  Views:
+    Current:
+      Class: rviz_default_plugins/Orbit
+      Name: Current View
+      Distance: 13
+      Focal Point:
+        X: 0
+        Y: -0.5
+        Z: 0
+      Focal Shape Fixed Size: true
+      Focal Shape Size: 0.05
+      Near Clip Distance: 0.01
+      Pitch: 1.1
+      Yaw: -1.5708
+      Target Frame: <Fixed Frame>
+      Value: Orbit (rviz)
+    Saved: ~
+Window Geometry:
+  Displays:
+    collapsed: false
+  Height: 860
+  Width: 1300
+  Hide Left Dock: false
+  Hide Right Dock: true
+  Views:
+    collapsed: true

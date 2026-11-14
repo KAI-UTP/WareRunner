@@ -1,0 +1,12 @@
+# Python
+__pycache__/
+*.pyc
+
+# colcon / ROS build output (if someone builds inside the repo)
+build/
+install/
+log/
+
+# Recorded data stays in Ubuntu ~/ros2_ws (rosbags are large)
+*.db3
+*.mcap

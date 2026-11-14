@@ -1,0 +1,14 @@
+{
+  "slam_map": "/home/kai/ros2_ws/maps/slam_map.yaml",
+  "slam_size_m": [
+    10.05,
+    10.05
+  ],
+  "slam_wall_cells": 1974,
+  "reference_surface_cells": 1232,
+  "wall_accuracy": 0.854,
+  "wall_coverage": 0.92,
+  "mean_error_cm": 5.8,
+  "free_coverage": 0.971,
+  "free_marked_occupied": 0.0294
+}

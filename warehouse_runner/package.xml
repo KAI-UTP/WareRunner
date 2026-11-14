@@ -1,0 +1,49 @@
+<?xml version="1.0"?>
+<package format="3">
+  <name>warehouse_runner</name>
+  <version>0.2.0</version>
+  <description>Simulated warehouse deliveries for learning ROS 2: driving, sensors and TF, SLAM, Nav2, a delivery controller with recovery logic, and repeatable trials.</description>
+  <maintainer email="learner@example.com">ROS learner</maintainer>
+  <license>MIT</license>
+
+  <buildtool_depend>ament_cmake</buildtool_depend>
+
+  <!-- simulation -->
+  <exec_depend>gazebo_ros</exec_depend>
+  <exec_depend>gazebo_msgs</exec_depend>
+  <exec_depend>turtlebot3_gazebo</exec_depend>
+  <exec_depend>robot_state_publisher</exec_depend>
+  <!-- Stage 1-2: messages, TF, visualisation -->
+  <exec_depend>rclpy</exec_depend>
+  <exec_depend>std_msgs</exec_depend>
+  <exec_depend>std_srvs</exec_depend>
+  <exec_depend>geometry_msgs</exec_depend>
+  <exec_depend>nav_msgs</exec_depend>
+  <exec_depend>sensor_msgs</exec_depend>
+  <exec_depend>visualization_msgs</exec_depend>
+  <exec_depend>tf2_ros</exec_depend>
+  <exec_depend>tf2_tools</exec_depend>
+  <exec_depend>rviz2</exec_depend>
+  <exec_depend>teleop_twist_keyboard</exec_depend>
+  <!-- Stage 3: SLAM -->
+  <exec_depend>slam_toolbox</exec_depend>
+  <exec_depend>nav2_map_server</exec_depend>
+  <!-- Stage 4-6: navigation, actions, lifecycle -->
+  <exec_depend>nav2_bringup</exec_depend>
+  <exec_depend>nav2_msgs</exec_depend>
+  <exec_depend>action_msgs</exec_depend>
+  <exec_depend>lifecycle_msgs</exec_depend>
+  <!-- Stage 7: recording and analysis -->
+  <exec_depend>ros2bag</exec_depend>
+  <exec_depend>rosbag2_storage_default_plugins</exec_depend>
+  <exec_depend>python3-numpy</exec_depend>
+  <exec_depend>python3-matplotlib</exec_depend>
+  <exec_depend>python3-yaml</exec_depend>
+  <!-- the control app -->
+  <exec_depend>python3-tk</exec_depend>
+  <exec_depend>python3-pil</exec_depend>
+
+  <export>
+    <build_type>ament_cmake</build_type>
+  </export>
+</package>

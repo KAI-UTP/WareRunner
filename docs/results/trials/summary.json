@@ -1,0 +1,264 @@
+{
+  "run": "/home/kai/ros2_ws/trials/final-20261107-2259",
+  "trials": 15,
+  "as_expected_rate": 0.867,
+  "scenarios": {
+    "A": {
+      "n": 3,
+      "expected": "success",
+      "outcomes": {
+        "success": 3
+      },
+      "as_expected_rate": 1.0,
+      "time_s": {
+        "mean": 95.03,
+        "sd": 1.36,
+        "min": 94.2,
+        "max": 96.6
+      },
+      "distance_m": {
+        "mean": 16.82,
+        "sd": 0.29,
+        "min": 16.53,
+        "max": 17.1
+      },
+      "recoveries": {
+        "mean": 0.0,
+        "sd": 0.0,
+        "min": 0.0,
+        "max": 0.0
+      },
+      "retries": {
+        "mean": 0.0,
+        "sd": 0.0,
+        "min": 0.0,
+        "max": 0.0
+      },
+      "min_clearance_m": {
+        "mean": 0.62,
+        "sd": 0.01,
+        "min": 0.61,
+        "max": 0.64
+      },
+      "true_goal_error_m": {
+        "mean": 0.26,
+        "sd": 0.05,
+        "min": 0.2,
+        "max": 0.3
+      },
+      "amcl_error_m": {
+        "mean": 0.14,
+        "sd": 0.02,
+        "min": 0.12,
+        "max": 0.16
+      },
+      "false_successes": 0
+    },
+    "B": {
+      "n": 3,
+      "expected": "success",
+      "outcomes": {
+        "success": 3
+      },
+      "as_expected_rate": 1.0,
+      "time_s": {
+        "mean": 96.2,
+        "sd": 1.08,
+        "min": 95.3,
+        "max": 97.4
+      },
+      "distance_m": {
+        "mean": 16.92,
+        "sd": 0.14,
+        "min": 16.76,
+        "max": 17.03
+      },
+      "recoveries": {
+        "mean": 0.0,
+        "sd": 0.0,
+        "min": 0.0,
+        "max": 0.0
+      },
+      "retries": {
+        "mean": 0.0,
+        "sd": 0.0,
+        "min": 0.0,
+        "max": 0.0
+      },
+      "min_clearance_m": {
+        "mean": 0.65,
+        "sd": 0.02,
+        "min": 0.64,
+        "max": 0.68
+      },
+      "true_goal_error_m": {
+        "mean": 0.29,
+        "sd": 0.02,
+        "min": 0.26,
+        "max": 0.3
+      },
+      "amcl_error_m": {
+        "mean": 0.18,
+        "sd": 0.03,
+        "min": 0.16,
+        "max": 0.21
+      },
+      "false_successes": 0
+    },
+    "C": {
+      "n": 3,
+      "expected": "success",
+      "outcomes": {
+        "success": 3
+      },
+      "as_expected_rate": 1.0,
+      "time_s": {
+        "mean": 87.27,
+        "sd": 0.76,
+        "min": 86.4,
+        "max": 87.8
+      },
+      "distance_m": {
+        "mean": 14.83,
+        "sd": 0.03,
+        "min": 14.8,
+        "max": 14.86
+      },
+      "recoveries": {
+        "mean": 0.0,
+        "sd": 0.0,
+        "min": 0.0,
+        "max": 0.0
+      },
+      "retries": {
+        "mean": 0.0,
+        "sd": 0.0,
+        "min": 0.0,
+        "max": 0.0
+      },
+      "min_clearance_m": {
+        "mean": 1.07,
+        "sd": 0.01,
+        "min": 1.06,
+        "max": 1.08
+      },
+      "true_goal_error_m": {
+        "mean": 0.23,
+        "sd": 0.02,
+        "min": 0.21,
+        "max": 0.25
+      },
+      "amcl_error_m": {
+        "mean": 0.09,
+        "sd": 0.02,
+        "min": 0.07,
+        "max": 0.12
+      },
+      "false_successes": 0
+    },
+    "C_aisle": {
+      "n": 3,
+      "expected": "success",
+      "outcomes": {
+        "success": 3
+      },
+      "as_expected_rate": 1.0,
+      "time_s": {
+        "mean": 200.23,
+        "sd": 21.83,
+        "min": 177.4,
+        "max": 220.9
+      },
+      "distance_m": {
+        "mean": 32.74,
+        "sd": 2.47,
+        "min": 30.04,
+        "max": 34.87
+      },
+      "recoveries": {
+        "mean": 2.0,
+        "sd": 1.0,
+        "min": 1.0,
+        "max": 3.0
+      },
+      "retries": {
+        "mean": 0.0,
+        "sd": 0.0,
+        "min": 0.0,
+        "max": 0.0
+      },
+      "min_clearance_m": {
+        "mean": 0.45,
+        "sd": 0.02,
+        "min": 0.42,
+        "max": 0.47
+      },
+      "true_goal_error_m": {
+        "mean": 0.15,
+        "sd": 0.01,
+        "min": 0.14,
+        "max": 0.16
+      },
+      "amcl_error_m": {
+        "mean": 0.11,
+        "sd": 0.01,
+        "min": 0.1,
+        "max": 0.11
+      },
+      "false_successes": 0
+    },
+    "A_blocked": {
+      "n": 3,
+      "expected": "partial",
+      "outcomes": {
+        "failed": 1,
+        "partial": 1,
+        "success": 1
+      },
+      "as_expected_rate": 0.333,
+      "time_s": {
+        "mean": 169.33,
+        "sd": 61.09,
+        "min": 109.6,
+        "max": 231.7
+      },
+      "distance_m": {
+        "mean": 14.56,
+        "sd": 3.48,
+        "min": 10.56,
+        "max": 16.94
+      },
+      "recoveries": {
+        "mean": 28.0,
+        "sd": 39.89,
+        "min": 3.0,
+        "max": 74.0
+      },
+      "retries": {
+        "mean": 2.0,
+        "sd": 2.0,
+        "min": 0.0,
+        "max": 4.0
+      },
+      "min_clearance_m": {
+        "mean": 0.4,
+        "sd": 0.21,
+        "min": 0.16,
+        "max": 0.57
+      },
+      "true_goal_error_m": {
+        "mean": 0.73,
+        "sd": 0.52,
+        "min": 0.36,
+        "max": 1.1
+      },
+      "amcl_error_m": {
+        "mean": 1.55,
+        "sd": 1.28,
+        "min": 0.19,
+        "max": 2.73
+      },
+      "false_successes": 1
+    }
+  }
+}
